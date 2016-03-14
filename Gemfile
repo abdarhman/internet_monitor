@@ -12,6 +12,7 @@ group :development, :test do
   gem 'rspec-rails', '2.14.2'
   gem 'capybara', '2.3.0'
   gem 'poltergeist', '1.5.1'
+  gem 'web-console-rails3'
 end
 
 gem 'factory_girl_rails'
@@ -27,7 +28,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'hirb'
 gem 'jquery-rails', '~> 2.3.0'
 gem 'rubyzip', '< 1.0.0'
 gem 'roo'
